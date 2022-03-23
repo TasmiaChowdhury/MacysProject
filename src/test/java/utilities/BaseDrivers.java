@@ -28,11 +28,4 @@ public class BaseDrivers {
 		driver.quit();
 	}
 	
-	public static String getCurrentUrl(){
-		return BaseDrivers.driver.getCurrentUrl();
-		
-	}
-	public static void tearDownDriver() {
-		driver.quit();
-	}
 }
